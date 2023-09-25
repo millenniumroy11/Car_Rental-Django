@@ -7,6 +7,8 @@ from car_dealer_portal.models import *
 from customer_portal.models import *
 from django.contrib.auth.decorators import login_required
 from django.http import HttpResponseRedirect
+from .models import CarDealer
+
 # Create your views here.
 
 def index(request):

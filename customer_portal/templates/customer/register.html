@@ -1,16 +1,26 @@
 {% extends 'customer/base.html' %}
 {% block content %}
+
+  <h1>---------------------------------------------------------------------------------------------------------------</h1>
 <div class="w3-bar">
- 
+
+
   <a class="w3-bar-item w3-right w3-btn w3-teal" href="/customer_portal/login/">Login</a>
   <a class="w3-bar-item w3-right w3-btn w3-teal" href="/">Home</a>
-  
+
+
 </div>
+<h1>---------------------------------------------------------------------------------------------------------------</h1>
+
 
 <div class="w3-display-container"  style="height:1000px;">
+  <div class="milli">
 <div class="w3-display-middle">
 
  <b> <h2>Registration Form</h2></b>
+
+
+
 
 <form class="w3-container" action="/customer_portal/registration/" method="POST">{% csrf_token %}
   <lable>FirstName : </lable><input class="w3-input" type="text" name="firstname"><br><br>
@@ -23,7 +33,9 @@
   <lable>Pincode : </lable><input class="w3-input" type="text" name="pincode"><br><br>
   <input class="w3-btn w3-teal" type="submit"><br><br>
 </form>
+</div>
 
 </div>
 </div>
+
 {% endblock %}

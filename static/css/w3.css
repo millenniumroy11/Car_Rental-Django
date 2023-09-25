@@ -467,6 +467,18 @@ a {
   width: 100%;
   overflow: hidden;
 }
+.w3-bar1{
+  background-size: cover;
+  border-radius: 30px;
+  /* background:#ADD8E6 ; */
+
+   background-image: linear-gradient(to right top, #000000, #462224, #874133, #c26d32, #eca521, #dbc52c,
+#c3e34e, #a2ff7d, #70fcb4, #62f3db, #83e6ec, #add8e6);
+  margin-left:28%;
+  margin-right:28%;
+  margin-top:2%;
+}
+
 .w3-center .w3-bar {
   display: inline-block;
   width: auto;
@@ -829,6 +841,42 @@ a {
   bottom: 0;
   transform: translate(-50%, 0%);
   -ms-transform: translate(-50%, 0%);
+}
+.w3-display-container1{
+  background-size: cover;
+  border-radius: 30px;
+  /* background:#ADD8E6 ; */
+
+   background-image: linear-gradient(to right top, #000000, #462224, #874133, #c26d32, #eca521, #dbc52c,
+#c3e34e, #a2ff7d, #70fcb4, #62f3db, #83e6ec, #add8e6);
+  margin-left:28%;
+  margin-right:28%;
+  margin-top:2%;
+
+}
+.w3-display-container2{
+  background-size: cover;
+  border-radius: 30px;
+  background-image: linear-gradient(to right top, #000000, #462224, #874133, #c26d32, #eca521, #dbc52c,
+#c3e34e, #a2ff7d, #70fcb4, #62f3db, #83e6ec, #add8e6);
+  margin-left:28%;
+  margin-right:28%;
+  margin-top:2%;
+
+}
+.milli{
+  background-size: cover;
+  border-radius: 40px;
+  background-image: linear-gradient(to right top, #000000, #462224, #874133, #c26d32, #eca521, #dbc52c,
+#c3e34e, #a2ff7d, #70fcb4, #62f3db, #83e6ec, #add8e6);
+  margin-left:28%;
+  margin-right:28%;
+  margin-top:2%;
+}
+
+}
+.kd2{
+  background-color: lightblue;
 }
 .w3-display-container:hover .w3-display-hover {
   display: block;

@@ -1,0 +1,10 @@
+body{
+  background-image: url("Car3.jpg");
+      height:70%;
+      <!-- background-position: center; -->
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.kd{
+  background-color: red;
+}

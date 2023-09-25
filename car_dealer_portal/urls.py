@@ -1,6 +1,7 @@
 from django.urls import path,include
 from car_dealer_portal.views import *
 from django.conf.urls import url
+from django.urls import re_path as url
 
 urlpatterns = [
     url(r'^index/$',index),

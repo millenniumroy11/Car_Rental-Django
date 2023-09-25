@@ -5,7 +5,11 @@
 {% if form.errors %}
 
 {% endif %}
-<div class="w3-display-container" style="height:500px;">
+
+<div class="kd">
+
+
+<div class="w3-display-container1" style="height:500px;">
   <div class="w3-display-middle">
 <form class="w3-container" action="/customer_portal/auth/" method="POST">{% csrf_token %}
   <lable>Username :</lable> <input class="w3-input" type="text" name="username"><br><br>
@@ -18,4 +22,10 @@
 </div>
 </div>
 </div>
+<div class="">
+<h1 class="kd2"></h1>
+</div><br>
+<br><br><br><br>
+</div><br><br><br><br>
+
 {% endblock %}
